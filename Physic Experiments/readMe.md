@@ -30,4 +30,4 @@ Design a double-armed lever. The lever should be weightless.
 
 ### License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/dystaSatria/Unity-2D-Projects/blob/main/Physic%20Experiments/License.md).
