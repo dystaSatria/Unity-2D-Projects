@@ -1,4 +1,4 @@
-Copyright (C) 2024 dystaSatr
+Copyright (C) 2024 dystaSatri
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
