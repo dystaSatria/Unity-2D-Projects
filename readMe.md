@@ -139,3 +139,31 @@ Quaternion.LookRotation(gameObjectPosition);
 ```
 
 ## Fizik Etkinlikleri
+
+OnCollisionEnter- Bu işlev, başka bir nesne mevcut oyun nesnesine çarptığında bir kez çağrılır.
+OnCollisionStay- Bu işlev, mevcut oyun nesnesine başka bir nesne çarptığında her karede çağrılır.
+OnCollisionExit- Bu işlev, bir nesne mevcut nesnenin çarpışma bölgesinden çıktığında bir kez çağrılır.
+
+Son olarak 2 boyutlu çarpıştırıcılar için karşılık gelen işlevler vardır. İşlevler, 3B işlevlerle aynı adı paylaşır ancak sözcüğün 2Dsonuna eklenir. Aynı şey parametre türü için de geçerlidir. Bunun Collision2Dyerine Collision.
+
+```c#
+private void OnCollisionEnter2D(Collision2D hit) {
+  Debug.Log($"{gameObject.name} hits {hit.gameObject.name}");
+}
+private void OnCollisionStay2D(Collision2D hit) {
+  Debug.Log($"{gameObject.name} is hitting {hit.gameObject.name}");
+}
+private void OnCollisionExit2D(Collision2D hit) {
+  Debug.Log($"{gameObject.name} stopped hitting {hit.gameObject.name}");
+}
+private void OnTriggerEnter2D(Collision2D hit) {
+  Debug.Log($"{gameObject.name} hits {hit.gameObject.name}");
+}
+private void OnTriggerStay2D(Collision2D hit) {
+  Debug.Log($"{gameObject.name} is hitting {hit.gameObject.name}");
+}
+private void OnTriggerExit2D(Collision2D hit) {
+  Debug.Log($"{gameObject.name} stopped hitting {hit.gameObject.name}");
+}
+
+```
