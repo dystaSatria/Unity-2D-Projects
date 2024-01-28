@@ -127,3 +127,13 @@ Belirli bir vektörün yönü ile ilgileniyorsanız, onun normalizedözelliğine
 myVector.normalized
 
 ```
+
+## Kuaterniyon
+
+Oyun nesnesinin döndürülmesi için kuaterniyonlar kullanılır. Mevcut oyun nesnesinin rotasyonu özellik aracılığıyla okunabilir/güncellenebilir transform.rotation.
+
+Unity'nin adında bir işlevi var Quaternion.LookRotation(). Bu işlev, bir vektörü alan bir Kuaterniyon döndürür. Tipik olarak vektör, bakmak istediğiniz oyun nesnesinin konumu olacaktır.
+
+```c#
+Quaternion.LookRotation(gameObjectPosition);
+```
