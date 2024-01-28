@@ -53,3 +53,17 @@ Genel değişkenlerin serileştirilmesini istemiyorsanız, ad NonSerializedalan�
 ```c#
 [SerializeField] private int age = 10;
 ```
+
+## Oyun Nesnelerini Örnekleme
+İşlev çağrılarak programlı olarak sahneye yeni oyun nesneleri eklenebilir Instantiate(). Bu fonksiyonun üç argümanı vardır.
+
+* Oyun Nesnesi 
+* (İsteğe bağlı) Küresel Konum
+* (İsteğe bağlı) Döndürme
+
+```c#
+
+Instantiate(someGameObject);
+Instantiate(someGameObject, new Vector3(0, 0, 10));
+Instantiate(someGameObject, new Vector3(0, 0, 10), Quaternion.identity);
+```
