@@ -67,3 +67,25 @@ Instantiate(someGameObject);
 Instantiate(someGameObject, new Vector3(0, 0, 10));
 Instantiate(someGameObject, new Vector3(0, 0, 10), Quaternion.identity);
 ```
+
+## Bileşenler
+
+Oyun nesneleri kendi başlarına hiçbir şey yapamazlar. Belirli işlevler eklemek için bileşenler eklemeliyiz. Özel bileşenler eklerseniz diğer bileşenleri seçmek isteyebilirsiniz. Unity, bir oyun nesnesinden bileşenleri almak için çeşitli çözümler sunar.
+
+İlk çözüm işlevi kullanmaktır GetComponent(). Bu işlevi çağırmanın farklı yolları vardır. En yaygın olanı, bileşene ilişkin sınıfın adını şu şekilde genel olarak iletmektir:
+
+```c#
+AudioSource audioSource = GetComponent<AudioSource>();
+```
+
+Alternatif olarak, anahtar kelimeyi kullanabilir typeofve değeri şu şekilde belirtebilirsiniz:
+
+```c#
+AudioSource audioSource = GetComponent(typeof(AudioSource)) as AudioSource;
+```
+
+Son olarak bileşenin adını şu şekilde bir dize olarak iletebilirsiniz:
+
+```c#
+AudioSource audioSource = GetComponent("AudioSource") as AudioSource;
+```
