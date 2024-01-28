@@ -89,3 +89,35 @@ Son olarak bileşenin adını şu şekilde bir dize olarak iletebilirsiniz:
 ```c#
 AudioSource audioSource = GetComponent("AudioSource") as AudioSource;
 ```
+
+## Vektörler
+
+Vektörler oyun nesnelerinin konumları için kullanılır. Mesafeyi ve hareketi hesaplamanıza yardımcı olması için bunları kullanabilirsiniz. Vector2ve olmak üzere iki vektör sınıfı vardır Vector3
+
+Vektör 3
+
+```c#
+
+Vector3.right   /* (1, 0, 0)  */
+Vector3.left    /* (-1, 0, 0) */
+Vector3.up      /* (0, 1, 0)  */
+Vector3.down    /* (0, -1, 0) */
+Vector3.forward /* (0, 0, 1)  */
+Vector3.back    /* (0, 0, -1) */
+Vector3.zero    /* (0, 0, 0)  */
+Vector3.one     /* (1, 1, 1)  */
+
+```
+
+Vektör2
+
+```c#
+Vector2.right /* (1, 0)  */
+Vector2.left  /* (-1, 0) */
+Vector2.up    /* (0, 1)  */
+Vector2.down  /* (0, -1) */
+Vector2.zero  /* (0, 0)  */
+Vector2.one   /* (1, 1)  */
+
+```
+Belirli bir vektörün yönü ile ilgileniyorsanız, onun normalizedözelliğine şu şekilde erişebilirsiniz:
