@@ -192,6 +192,7 @@ Temel fark, türün UnityEventUnity düzenleyicisine serileştirilebilmesidir. B
 
 Etkinliğinizle birlikte ek veriler göndermek için jenerikleri kullanabilirsiniz. En fazla 4 veri türü desteklenir.
 
+```c#
 // 1 Parameter
 public event UnityAction<int> OnCustomEvent;
 // 2 Parameters
@@ -200,3 +201,5 @@ public event UnityAction<int, float> OnCustomEvent;
 public event UnityAction<int, float, bool> OnCustomEvent;
 // 4 Parameters
 public event UnityAction<int, float, bool, string> OnCustomEvent;
+
+```
