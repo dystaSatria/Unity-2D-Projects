@@ -203,3 +203,9 @@ public event UnityAction<int, float, bool> OnCustomEvent;
 public event UnityAction<int, float, bool, string> OnCustomEvent;
 
 ```
+
+# Rigidbody 2D
+
+Sert cisimler, yerçekimine, kütleye, sürüklenmeye ve momentuma tepkiler gibi fizik temelli davranışları mümkün kılar.
+
+_ _ _ _ _
