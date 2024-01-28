@@ -121,3 +121,9 @@ Vector2.one   /* (1, 1)  */
 
 ```
 Belirli bir vektörün yönü ile ilgileniyorsanız, onun normalizedözelliğine şu şekilde erişebilirsiniz:
+
+```c#
+
+myVector.normalized
+
+```
