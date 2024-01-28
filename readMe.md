@@ -29,3 +29,10 @@ Sınıftan türetilen tüm bileşenler, MonoBehaviourönceden belirlenmiş bir s
 * OnDisable()- Bu işlev oyun nesnesi devre dışı bırakıldığında çağrılır.
 * OnDestroy()- Bu işlev, oyun nesnesi yok edildiğinde çağrılır.
 * FixedUpdateSaniyede sabit sayıda kez olarak adlandırılan, adında bir yaşam döngüsü işlevi vardır . Frekansı Düzenle ▸ Proje Ayarları ▸ Zaman ▸ Sabit Zaman Adımı'nda yapılandırabilirsiniz .
+
+
+## Değişkenleri Serileştirme
+Unity, değişkenleriniz üzerinde serileştirme yapma yeteneğine sahiptir. Serileştirme, verilerinizi Unity editöründen okunabilecek ve düzenlenebilecek bir formata dönüştürme işlemidir. Değişkenler, bir değişkene uygulanan öznitelik veya erişim değiştiricilere göre serileştirilebilir.
+
+__ ___ ___ ___
+
