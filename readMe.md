@@ -167,3 +167,36 @@ private void OnTriggerExit2D(Collision2D hit) {
 }
 
 ```
+
+
+## Özel Birlik Etkinlikleri
+Çeşitli oyun nesneleri arasında iletişim kurmanıza yardımcı olmak için özel etkinlikler oluşturulabilir. Öncelikle doğru ad alanını eklemelisiniz:
+
+```c#
+using UnityEngine.Events;
+```
+
+UnityEventDaha sonra, aşağıdaki türde bir değişken tanımlayarak özel bir etkinlik oluşturabilirsiniz :
+
+```c#
+public event UnityEvent OnCustomEvent;
+```
+
+UnityActionUnity'nin özel etkinlikler oluşturmak için adlandırılan başka bir veri türü vardır :
+
+```c#
+public event UnityAction OnCustomEvent;
+```
+
+Temel fark, türün UnityEventUnity düzenleyicisine serileştirilebilmesidir. Bir etkinliğin Unity editörü aracılığıyla herkese açık olarak değiştirilebilmesine ihtiyacınız yoksa, türü seçmeniz daha iyi olur UnityAction.
+
+Etkinliğinizle birlikte ek veriler göndermek için jenerikleri kullanabilirsiniz. En fazla 4 veri türü desteklenir.
+
+// 1 Parameter
+public event UnityAction<int> OnCustomEvent;
+// 2 Parameters
+public event UnityAction<int, float> OnCustomEvent;
+// 3 Parameters
+public event UnityAction<int, float, bool> OnCustomEvent;
+// 4 Parameters
+public event UnityAction<int, float, bool, string> OnCustomEvent;
