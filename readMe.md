@@ -36,3 +36,15 @@ Unity, değişkenleriniz üzerinde serileştirme yapma yeteneğine sahiptir. Ser
 
 __ ___ ___ ___
 
+Bir değişken ise publicotomatik olarak serileştirilir:
+
+```c#
+public int age = 10;
+```
+
+Genel değişkenlerin serileştirilmesini istemiyorsanız, ad NonSerializedalanındaki özniteliği Systemşu şekilde kullanabilirsiniz:
+
+[NonSerialized] public int age = 10;
+Özel değişkenler serileştirilmedi. Ancak bunların serileştirilmesini istiyorsanız Unity'nin SerializeFieldad alanından bulunabilen bir özelliği vardır Unity. Şu şekilde uygulanabilir:
+
+[SerializeField] private int age = 10;
