@@ -137,3 +137,5 @@ Unity'nin adında bir işlevi var Quaternion.LookRotation(). Bu işlev, bir vekt
 ```c#
 Quaternion.LookRotation(gameObjectPosition);
 ```
+
+## Fizik Etkinlikleri
