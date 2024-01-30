@@ -1,7 +1,9 @@
 # Unity 2D Cheatsheet
 
 
-
+## Denetçi(Inspektor ) penceresi
+Unity Editor'daki hemen hemen her şeyin özelliklerini ve ayarlarını görüntülemek ve düzenlemek için Denetçi (Inspektor) penceresini kullanın .Oyun Nesneleri
+,Unity bileşenleri, Varlıklar, Malzemeler ve Editör içi ayarlar ve tercihler.
 ## Hiyerarşi
 
 Hiyerarşi penceresi her şeyi görüntülerOyun Nesnesi modeller, Kameralar veya gibi bir SahnedePrefabrikler
