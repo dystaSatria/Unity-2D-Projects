@@ -1,5 +1,11 @@
 # Unity 2D Cheatsheet
 
+
+
+## Hiyerarşi
+
+Hiyerarşi penceresi her şeyi görüntülerOyun Nesnesi modeller, Kameralar veya gibi bir SahnedePrefabrikler
+
 ## MonoDavranış
 Sınıf MonoBehaviour, sınıfınızı oyun nesneleri için bir bileşene dönüştürmenize yardımcı olmak amacıyla Unity tarafından tanımlanır:
 
