@@ -1,6 +1,7 @@
 # Unity 2D Cheatsheet
 
-## Sahne görünümü, Editör'de oluşturduğunuz dünyayı görselleştirdiğiniz ve onunla etkileşim kurduğunuz yerdir. Sahne görünümünde manzara, karakter, kamera, ışık ve daha fazlası gibi davranan GameObject'leri seçebilir, değiştirebilir ve değiştirebilirsiniz.
+## Sahne görünümü
+Sahne görünümü, Editör'de oluşturduğunuz dünyayı görselleştirdiğiniz ve onunla etkileşim kurduğunuz yerdir. Sahne görünümünde manzara, karakter, kamera, ışık ve daha fazlası gibi davranan GameObject'leri seçebilir, değiştirebilir ve değiştirebilirsiniz.
 
 ## Denetçi(Inspektor ) penceresi
 Unity Editor'daki hemen hemen her şeyin özelliklerini ve ayarlarını görüntülemek ve düzenlemek için Denetçi (Inspektor) penceresini kullanın .Oyun Nesneleri
