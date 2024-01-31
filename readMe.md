@@ -219,6 +219,7 @@ public event UnityAction<int, float, bool, string> OnCustomEvent;
 
 
 ## Various audio examples for Unity
+```c#
 using UnityEngine;
 using System.Collections;
 
@@ -278,4 +279,4 @@ public class AudioExamples : MonoBehaviour
 
 Sert cisimler, yerçekimine, kütleye, sürüklenmeye ve momentuma tepkiler gibi fizik temelli davranışları mümkün kılar.
 
-_ _ _ _ _
+```
