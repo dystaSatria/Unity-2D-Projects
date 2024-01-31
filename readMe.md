@@ -37,6 +37,7 @@ Sınıftan türetilen tüm bileşenler, MonoBehaviourönceden belirlenmiş bir s
 * OnDisable()- Bu işlev oyun nesnesi devre dışı bırakıldığında çağrılır.
 * OnDestroy()- Bu işlev, oyun nesnesi yok edildiğinde çağrılır.
 * FixedUpdateSaniyede sabit sayıda kez olarak adlandırılan, adında bir yaşam döngüsü işlevi vardır . Frekansı Düzenle ▸ Proje Ayarları ▸ Zaman ▸ Sabit Zaman Adımı'nda yapılandırabilirsiniz .
+  FixedUpdate her karede çağrılmaz, ancak sabit zaman aralıklarında çağrılır, bu nedenle tüm kodların buraya yerleştirilmesi gerekmez—sadece fizikle ilgili olan veya tutarlı zaman güncellemeleri gerektiren kodlar burada yer almalıdır.
 
 
 ## Değişkenleri Serileştirme
