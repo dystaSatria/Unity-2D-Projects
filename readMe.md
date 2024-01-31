@@ -151,9 +151,9 @@ Quaternion.LookRotation(gameObjectPosition);
 
 ## Fizik Etkinlikleri
 
-OnCollisionEnter- Bu işlev, başka bir nesne mevcut oyun nesnesine çarptığında bir kez çağrılır.
-OnCollisionStay- Bu işlev, mevcut oyun nesnesine başka bir nesne çarptığında her karede çağrılır.
-OnCollisionExit- Bu işlev, bir nesne mevcut nesnenin çarpışma bölgesinden çıktığında bir kez çağrılır.
+* OnCollisionEnter- Bu işlev, başka bir nesne mevcut oyun nesnesine çarptığında bir kez çağrılır.
+* OnCollisionStay- Bu işlev, mevcut oyun nesnesine başka bir nesne çarptığında her karede çağrılır.
+* OnCollisionExit- Bu işlev, bir nesne mevcut nesnenin çarpışma bölgesinden çıktığında bir kez çağrılır.
 
 Son olarak 2 boyutlu çarpıştırıcılar için karşılık gelen işlevler vardır. İşlevler, 3B işlevlerle aynı adı paylaşır ancak sözcüğün 2Dsonuna eklenir. Aynı şey parametre türü için de geçerlidir. Bunun Collision2Dyerine Collision.
 
@@ -178,6 +178,8 @@ private void OnTriggerExit2D(Collision2D hit) {
 }
 
 ```
+
+Özetle, OnCollisionEnter2D fiziksel etkileşimler için kullanılırken, OnTriggerEnter2D belirli bir alanda bir nesnenin varlığını fiziksel bir tepki olmaksızın algılamak için daha çok kullanılır.
 
 
 ## Özel Birlik Etkinlikleri
