@@ -182,7 +182,7 @@ private void OnTriggerExit2D(Collision2D hit) {
 Özetle, OnCollisionEnter2D fiziksel etkileşimler için kullanılırken, OnTriggerEnter2D belirli bir alanda bir nesnenin varlığını fiziksel bir tepki olmaksızın algılamak için daha çok kullanılır.
 
 
-## Özel Birlik Etkinlikleri
+## Özel Birlik Etkinlikleri
 Çeşitli oyun nesneleri arasında iletişim kurmanıza yardımcı olmak için özel etkinlikler oluşturulabilir. Öncelikle doğru ad alanını eklemelisiniz:
 
 ```c#
